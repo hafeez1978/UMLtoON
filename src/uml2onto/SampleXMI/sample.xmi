@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><uml:Model xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="_CJcPEIidEeeivLgibAIzcg" name="paperresearcher">
+  <eAnnotations xmi:id="_CJcPEYidEeeivLgibAIzcg" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_CJcPEoidEeeivLgibAIzcg" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_CJcPE4idEeeivLgibAIzcg" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CJcPFIidEeeivLgibAIzcg" name="Researcher"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CJcPFYidEeeivLgibAIzcg" name="review" memberEnd="_CJcPFoidEeeivLgibAIzcg _CJcPF4idEeeivLgibAIzcg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CJcPFoidEeeivLgibAIzcg" visibility="public" type="_CJcPGIidEeeivLgibAIzcg" association="_CJcPFYidEeeivLgibAIzcg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CJcPF4idEeeivLgibAIzcg" visibility="public" type="_CJcPFIidEeeivLgibAIzcg" association="_CJcPFYidEeeivLgibAIzcg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CJcPGIidEeeivLgibAIzcg" name="Paper"/>
+</uml:Model>

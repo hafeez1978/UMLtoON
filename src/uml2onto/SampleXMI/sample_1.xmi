@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><uml:Model xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="_LxC0YBenEeaGxLlKE5s3zA" name="salemanxor">
+  <eAnnotations xmi:id="_LxDbcBenEeaGxLlKE5s3zA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_LxDbcRenEeaGxLlKE5s3zA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_LxDbchenEeaGxLlKE5s3zA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+<packagedElement xmi:type="uml:Class" xmi:id="_class1" name="Cla1" />
+<packagedElement xmi:type="uml:Association" xmi:id="_association1" name="Ass1" memberEnd="_ownedEnd1 _ownedEnd2">
+<ownedEnd xmi:type="uml:Property" xmi:id="_ownedEnd1" visibility="public" type="_class2" association="_association1"/>
+<ownedEnd xmi:type="uml:Property" xmi:id="_ownedEnd2" visibility="public" type="_class1" association="_association1"/>
+</packagedElement>
+<packagedElement xmi:type="uml:Class" xmi:id="_class2" name="Cla2" />
+</uml:Model>

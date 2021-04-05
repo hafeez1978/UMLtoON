@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><uml:Model xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="_DYKbgDcwEea_TefrYS8FfQ" name="salemanxor">
+  <eAnnotations xmi:id="_DYKbgTcwEea_TefrYS8FfQ" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_DYKbgjcwEea_TefrYS8FfQ" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_DYKbgzcwEea_TefrYS8FfQ" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <ownedRule xmi:type="uml:Constraint" xmi:id="_DYKbhDcwEea_TefrYS8FfQ" name="xor" constrainedElement="_DYKbiDcwEea_TefrYS8FfQ _DYKbjzcwEea_TefrYS8FfQ">
+    <specification xmi:type="uml:LiteralString" xmi:id="_DYKbhTcwEea_TefrYS8FfQ" value=""/>
+  </ownedRule>
+  <packagedElement xmi:type="uml:Class" xmi:id="_DYKbhjcwEea_TefrYS8FfQ" name="Saleman"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_DYKbhzcwEea_TefrYS8FfQ" name="Travel" memberEnd="_DYKbiDcwEea_TefrYS8FfQ _DYKbizcwEea_TefrYS8FfQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DYKbiDcwEea_TefrYS8FfQ" visibility="public" type="_DYKblTcwEea_TefrYS8FfQ" association="_DYKbhzcwEea_TefrYS8FfQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DYKbiTcwEea_TefrYS8FfQ" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DYKbijcwEea_TefrYS8FfQ"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DYKbizcwEea_TefrYS8FfQ" visibility="public" type="_DYKbhjcwEea_TefrYS8FfQ" association="_DYKbhzcwEea_TefrYS8FfQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DYKbjDcwEea_TefrYS8FfQ" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DYKbjTcwEea_TefrYS8FfQ"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_DYKbjjcwEea_TefrYS8FfQ" name="Travel" memberEnd="_DYKbjzcwEea_TefrYS8FfQ _DYKbkjcwEea_TefrYS8FfQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DYKbjzcwEea_TefrYS8FfQ" visibility="public" type="_DYKbljcwEea_TefrYS8FfQ" association="_DYKbjjcwEea_TefrYS8FfQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DYKbkDcwEea_TefrYS8FfQ" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DYKbkTcwEea_TefrYS8FfQ"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DYKbkjcwEea_TefrYS8FfQ" visibility="public" type="_DYKbhjcwEea_TefrYS8FfQ" association="_DYKbjjcwEea_TefrYS8FfQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DYKbkzcwEea_TefrYS8FfQ" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DYKblDcwEea_TefrYS8FfQ"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_DYKblTcwEea_TefrYS8FfQ" name="Vehicle"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_DYKbljcwEea_TefrYS8FfQ" name="CommercialVehicle "/>
+    
+</uml:Model>

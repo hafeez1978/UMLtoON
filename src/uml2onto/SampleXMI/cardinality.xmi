@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><uml:Model xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="_bcevQI2XEeadtqQBSo39kA" name="cardinality">
+  <eAnnotations xmi:id="_bcevQY2XEeadtqQBSo39kA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_bcevQo2XEeadtqQBSo39kA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_bcevQ42XEeadtqQBSo39kA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_bcevRI2XEeadtqQBSo39kA" name="A">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_bcevRY2XEeadtqQBSo39kA" visibility="public" type="_bcevVY2XEeadtqQBSo39kA" association="_bcevTY2XEeadtqQBSo39kA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bcevRo2XEeadtqQBSo39kA" value="4"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bcevR42XEeadtqQBSo39kA" value="4"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bcevSI2XEeadtqQBSo39kA" name="R1" memberEnd="_bcevSY2XEeadtqQBSo39kA _bcevTI2XEeadtqQBSo39kA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bcevSY2XEeadtqQBSo39kA" visibility="public" type="_bcevT42XEeadtqQBSo39kA" association="_bcevSI2XEeadtqQBSo39kA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bcevSo2XEeadtqQBSo39kA" value="2"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bcevS42XEeadtqQBSo39kA" value="2"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bcevTI2XEeadtqQBSo39kA" visibility="public" type="_bcevRI2XEeadtqQBSo39kA" association="_bcevSI2XEeadtqQBSo39kA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bcevTY2XEeadtqQBSo39kA" name="R3" memberEnd="_bcevRY2XEeadtqQBSo39kA _bcevTo2XEeadtqQBSo39kA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bcevTo2XEeadtqQBSo39kA" visibility="public" type="_bcevRI2XEeadtqQBSo39kA" association="_bcevTY2XEeadtqQBSo39kA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_bcevT42XEeadtqQBSo39kA" name="B"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bcevUI2XEeadtqQBSo39kA" name="R2" memberEnd="_bcevUY2XEeadtqQBSo39kA _bcevVI2XEeadtqQBSo39kA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bcevUY2XEeadtqQBSo39kA" visibility="public" type="_bcevVY2XEeadtqQBSo39kA" association="_bcevUI2XEeadtqQBSo39kA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bcevUo2XEeadtqQBSo39kA" value="3"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bcevU42XEeadtqQBSo39kA" value="3"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bcevVI2XEeadtqQBSo39kA" visibility="public" type="_bcevT42XEeadtqQBSo39kA" association="_bcevUI2XEeadtqQBSo39kA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_bcevVY2XEeadtqQBSo39kA" name="C"/>
+</uml:Model>

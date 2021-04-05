@@ -1,0 +1,43 @@
+
+  
+    
+      
+    
+  
+  
+            :Travel rdf:type owl:ObjectProperty.
+                     
+            :Saleman 
+        owl:equivalentClass [rdf:type owl:Class ;    
+                    owl:intersectionOf ( [ rdf:type owl:Class ;
+                                    owl:intersectionOf ( [ rdf:type owl:Class ;
+                                     owl:complementOf [ rdf:type owl:Restriction ;
+                                         owl:onProperty :Travel ;
+                                         owl:someValuesFrom :Vehicle]]
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty :Travel ;
+                                       owl:someValuesFrom :CommercialVehicle
+                                       ])]
+                                      [ rdf:type owl:Class ;
+                                         owl:unionOf ( [ rdf:type owl:Restriction ;
+                                         owl:onProperty :Travel  ;
+                                         owl:someValuesFrom :Vehicle]
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty :Travel ;
+                                          owl:someValuesFrom :CommercialVehicle])])].
+     
+          
+        
+   
+        :Saleman rdf:type owl:Class.
+        
+  
+  
+   
+        :Vehicle rdf:type owl:Class.
+        
+   
+        :CommercialVehicle rdf:type owl:Class.
+        
+            :CommercialVehicle rdfs:subClassOf :Vehicle.
+        

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><uml:Model xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="_Lk6qkM-LEea7e_ywz4ao-g" name="project1">
+  <eAnnotations xmi:id="_Lk6qkc-LEea7e_ywz4ao-g" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_Lk6qks-LEea7e_ywz4ao-g" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_Lk6qk8-LEea7e_ywz4ao-g" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <ownedRule xmi:type="uml:Constraint" xmi:id="_Lk6qlM-LEea7e_ywz4ao-g" name="xor" constrainedElement="_Lk6qnM-LEea7e_ywz4ao-g _Lk6qps-LEea7e_ywz4ao-g">
+    <specification xmi:type="uml:LiteralString" xmi:id="_Lk6qlc-LEea7e_ywz4ao-g" value=""/>
+  </ownedRule>
+  <ownedRule xmi:type="uml:Constraint" xmi:id="_Lk6qls-LEea7e_ywz4ao-g" name="xor" constrainedElement="_Lk6qq8-LEea7e_ywz4ao-g _Lk6qss-LEea7e_ywz4ao-g">
+    <specification xmi:type="uml:LiteralString" xmi:id="_Lk6ql8-LEea7e_ywz4ao-g" value=""/>
+  </ownedRule>
+  <ownedRule xmi:type="uml:Constraint" xmi:id="_Lk6qmM-LEea7e_ywz4ao-g" name="xor" constrainedElement="_Lk6qvc-LEea7e_ywz4ao-g _Lk6qxc-LEea7e_ywz4ao-g">
+    <specification xmi:type="uml:LiteralString" xmi:id="_Lk6qmc-LEea7e_ywz4ao-g" value=""/>
+  </ownedRule>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Lk6qms-LEea7e_ywz4ao-g" name="Person"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Lk6qm8-LEea7e_ywz4ao-g" name="Review" memberEnd="_Lk6qnM-LEea7e_ywz4ao-g _Lk6qn8-LEea7e_ywz4ao-g">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lk6qnM-LEea7e_ywz4ao-g" visibility="public" type="_Lk6q3s-LEea7e_ywz4ao-g" association="_Lk6qm8-LEea7e_ywz4ao-g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lk6qnc-LEea7e_ywz4ao-g" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lk6qns-LEea7e_ywz4ao-g"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lk6qn8-LEea7e_ywz4ao-g" visibility="public" type="_Lk6qms-LEea7e_ywz4ao-g" association="_Lk6qm8-LEea7e_ywz4ao-g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lk6qoM-LEea7e_ywz4ao-g" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lk6qoc-LEea7e_ywz4ao-g"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Lk6qos-LEea7e_ywz4ao-g" name="Write" memberEnd="_Lk6qo8-LEea7e_ywz4ao-g _Lk6qps-LEea7e_ywz4ao-g">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lk6qo8-LEea7e_ywz4ao-g" visibility="public" type="_Lk6q3s-LEea7e_ywz4ao-g" association="_Lk6qos-LEea7e_ywz4ao-g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lk6qpM-LEea7e_ywz4ao-g" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lk6qpc-LEea7e_ywz4ao-g"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lk6qps-LEea7e_ywz4ao-g" visibility="public" type="_Lk6qms-LEea7e_ywz4ao-g" association="_Lk6qos-LEea7e_ywz4ao-g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lk6qp8-LEea7e_ywz4ao-g" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lk6qqM-LEea7e_ywz4ao-g"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Lk6qqc-LEea7e_ywz4ao-g" name="Member"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Lk6qqs-LEea7e_ywz4ao-g" name="Borrowed" memberEnd="_Lk6qq8-LEea7e_ywz4ao-g _Lk6qrs-LEea7e_ywz4ao-g">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lk6qq8-LEea7e_ywz4ao-g" visibility="public" type="_Lk6q3s-LEea7e_ywz4ao-g" association="_Lk6qqs-LEea7e_ywz4ao-g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lk6qrM-LEea7e_ywz4ao-g" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lk6qrc-LEea7e_ywz4ao-g"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lk6qrs-LEea7e_ywz4ao-g" visibility="public" type="_Lk6qqc-LEea7e_ywz4ao-g" association="_Lk6qqs-LEea7e_ywz4ao-g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lk6qr8-LEea7e_ywz4ao-g" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lk6qsM-LEea7e_ywz4ao-g"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Lk6qsc-LEea7e_ywz4ao-g" name="Reserved" memberEnd="_Lk6qss-LEea7e_ywz4ao-g _Lk6qtc-LEea7e_ywz4ao-g">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lk6qss-LEea7e_ywz4ao-g" visibility="public" type="_Lk6q3s-LEea7e_ywz4ao-g" association="_Lk6qsc-LEea7e_ywz4ao-g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lk6qs8-LEea7e_ywz4ao-g" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lk6qtM-LEea7e_ywz4ao-g"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lk6qtc-LEea7e_ywz4ao-g" visibility="public" type="_Lk6qqc-LEea7e_ywz4ao-g" association="_Lk6qsc-LEea7e_ywz4ao-g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lk6qts-LEea7e_ywz4ao-g" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lk6qt8-LEea7e_ywz4ao-g"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Lk6quM-LEea7e_ywz4ao-g" name="Donor"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Lk6quc-LEea7e_ywz4ao-g" name="Donated" memberEnd="_Lk6qus-LEea7e_ywz4ao-g _Lk6qvc-LEea7e_ywz4ao-g">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lk6qus-LEea7e_ywz4ao-g" visibility="public" type="_Lk6q3s-LEea7e_ywz4ao-g" association="_Lk6quc-LEea7e_ywz4ao-g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lk6qu8-LEea7e_ywz4ao-g" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lk6qvM-LEea7e_ywz4ao-g"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lk6qvc-LEea7e_ywz4ao-g" visibility="public" type="_Lk6quM-LEea7e_ywz4ao-g" association="_Lk6quc-LEea7e_ywz4ao-g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lk6qvs-LEea7e_ywz4ao-g" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lk6qv8-LEea7e_ywz4ao-g"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Lk6qwM-LEea7e_ywz4ao-g" name="Publisher"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Lk6qwc-LEea7e_ywz4ao-g" name="Purchase" memberEnd="_Lk6qws-LEea7e_ywz4ao-g _Lk6qxc-LEea7e_ywz4ao-g">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lk6qws-LEea7e_ywz4ao-g" visibility="public" type="_Lk6q3s-LEea7e_ywz4ao-g" association="_Lk6qwc-LEea7e_ywz4ao-g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lk6qw8-LEea7e_ywz4ao-g" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lk6qxM-LEea7e_ywz4ao-g"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lk6qxc-LEea7e_ywz4ao-g" visibility="public" type="_Lk6qwM-LEea7e_ywz4ao-g" association="_Lk6qwc-LEea7e_ywz4ao-g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lk6qxs-LEea7e_ywz4ao-g" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lk6qx8-LEea7e_ywz4ao-g"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Lk6qyM-LEea7e_ywz4ao-g" name="Librarian" clientDependency="_Lk6qyc-LEea7e_ywz4ao-g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Lk6qyc-LEea7e_ywz4ao-g" name="&lt;&lt;Uses&gt;&gt;" supplier="_Lk6qys-LEea7e_ywz4ao-g" client="_Lk6qyM-LEea7e_ywz4ao-g"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Lk6qys-LEea7e_ywz4ao-g" name="Catalog"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Lk6qy8-LEea7e_ywz4ao-g" name="Record" memberEnd="_Lk6qzM-LEea7e_ywz4ao-g _Lk6qzs-LEea7e_ywz4ao-g">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lk6qzM-LEea7e_ywz4ao-g" visibility="public" type="_Lk6q3s-LEea7e_ywz4ao-g" association="_Lk6qy8-LEea7e_ywz4ao-g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lk6qzc-LEea7e_ywz4ao-g" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lk6qzs-LEea7e_ywz4ao-g" visibility="public" type="_Lk6qys-LEea7e_ywz4ao-g" association="_Lk6qy8-LEea7e_ywz4ao-g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lk6qz8-LEea7e_ywz4ao-g" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Lk6q0M-LEea7e_ywz4ao-g" name="Search" memberEnd="_Lk6q0c-LEea7e_ywz4ao-g _Lk6q08-LEea7e_ywz4ao-g">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lk6q0c-LEea7e_ywz4ao-g" visibility="public" type="_Lk6q3s-LEea7e_ywz4ao-g" association="_Lk6q0M-LEea7e_ywz4ao-g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lk6q0s-LEea7e_ywz4ao-g" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lk6q08-LEea7e_ywz4ao-g" visibility="public" type="_Lk6qys-LEea7e_ywz4ao-g" association="_Lk6q0M-LEea7e_ywz4ao-g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lk6q1M-LEea7e_ywz4ao-g" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Lk6q1c-LEea7e_ywz4ao-g" name="Student">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Lk6q1s-LEea7e_ywz4ao-g" general="_Lk6qqc-LEea7e_ywz4ao-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Lk6q18-LEea7e_ywz4ao-g" name="Teacher">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Lk6q2M-LEea7e_ywz4ao-g" general="_Lk6qqc-LEea7e_ywz4ao-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Lk6q2c-LEea7e_ywz4ao-g" name="Bookshelf "/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Lk6q2s-LEea7e_ywz4ao-g" name="Keep" memberEnd="_Lk6q28-LEea7e_ywz4ao-g _Lk6q3c-LEea7e_ywz4ao-g">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lk6q28-LEea7e_ywz4ao-g" visibility="public" type="_Lk6q3s-LEea7e_ywz4ao-g" association="_Lk6q2s-LEea7e_ywz4ao-g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lk6q3M-LEea7e_ywz4ao-g" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lk6q3c-LEea7e_ywz4ao-g" visibility="public" type="_Lk6q2c-LEea7e_ywz4ao-g" association="_Lk6q2s-LEea7e_ywz4ao-g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Lk6q3s-LEea7e_ywz4ao-g" name="Books"/>
+</uml:Model>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><uml:Model xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="_NNpioIgJEee32P0FYY_rjA" name="pos">
+  <eAnnotations xmi:id="_NNpioYgJEee32P0FYY_rjA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_NNpioogJEee32P0FYY_rjA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_NNpio4gJEee32P0FYY_rjA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NNpipIgJEee32P0FYY_rjA" name="SaleLineItems" isActive="true"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NNpipYgJEee32P0FYY_rjA" name="containedin" memberEnd="_NNpipogJEee32P0FYY_rjA _NNpip4gJEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNpipogJEee32P0FYY_rjA" visibility="public" type="_NNpit4gJEee32P0FYY_rjA" association="_NNpipYgJEee32P0FYY_rjA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNpip4gJEee32P0FYY_rjA" visibility="public" type="_NNpipIgJEee32P0FYY_rjA" association="_NNpipYgJEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NNpiqIgJEee32P0FYY_rjA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NNpiqYgJEee32P0FYY_rjA" name="recodsaleof" memberEnd="_NNpiqogJEee32P0FYY_rjA _NNpirIgJEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNpiqogJEee32P0FYY_rjA" visibility="public" type="_NNyslogJEee32P0FYY_rjA" association="_NNpiqYgJEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NNpiq4gJEee32P0FYY_rjA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNpirIgJEee32P0FYY_rjA" visibility="public" type="_NNpipIgJEee32P0FYY_rjA" association="_NNpiqYgJEee32P0FYY_rjA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NNpirYgJEee32P0FYY_rjA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NNpirogJEee32P0FYY_rjA" name="Ledger"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NNpir4gJEee32P0FYY_rjA" name="logcompleted" memberEnd="_NNpisIgJEee32P0FYY_rjA _NNpis4gJEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNpisIgJEee32P0FYY_rjA" visibility="public" type="_NNpit4gJEee32P0FYY_rjA" association="_NNpir4gJEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NNpisYgJEee32P0FYY_rjA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NNpisogJEee32P0FYY_rjA"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNpis4gJEee32P0FYY_rjA" visibility="public" type="_NNpirogJEee32P0FYY_rjA" association="_NNpir4gJEee32P0FYY_rjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NNpitIgJEee32P0FYY_rjA" name="recordaccountof" memberEnd="_NNpitYgJEee32P0FYY_rjA _NNpitogJEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNpitYgJEee32P0FYY_rjA" visibility="public" type="_NNysnIgJEee32P0FYY_rjA" association="_NNpitIgJEee32P0FYY_rjA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNpitogJEee32P0FYY_rjA" visibility="public" type="_NNpirogJEee32P0FYY_rjA" association="_NNpitIgJEee32P0FYY_rjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NNpit4gJEee32P0FYY_rjA" name="Sale"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NNpiuIgJEee32P0FYY_rjA" name="paidby" memberEnd="_NNpiuYgJEee32P0FYY_rjA _NNpiuogJEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNpiuYgJEee32P0FYY_rjA" visibility="public" type="_NNpiwogJEee32P0FYY_rjA" association="_NNpiuIgJEee32P0FYY_rjA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNpiuogJEee32P0FYY_rjA" visibility="public" type="_NNpit4gJEee32P0FYY_rjA" association="_NNpiuIgJEee32P0FYY_rjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NNpiu4gJEee32P0FYY_rjA" name="isfor" memberEnd="_NNpivIgJEee32P0FYY_rjA _NNpivYgJEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNpivIgJEee32P0FYY_rjA" visibility="public" type="_NNpixIgJEee32P0FYY_rjA" association="_NNpiu4gJEee32P0FYY_rjA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNpivYgJEee32P0FYY_rjA" visibility="public" type="_NNpit4gJEee32P0FYY_rjA" association="_NNpiu4gJEee32P0FYY_rjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NNpivogJEee32P0FYY_rjA" name="capturedon" memberEnd="_NNpiv4gJEee32P0FYY_rjA _NNpiwIgJEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNpiv4gJEee32P0FYY_rjA" visibility="public" type="_NNysoYgJEee32P0FYY_rjA" association="_NNpivogJEee32P0FYY_rjA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNpiwIgJEee32P0FYY_rjA" visibility="public" type="_NNpit4gJEee32P0FYY_rjA" association="_NNpivogJEee32P0FYY_rjA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NNpiwYgJEee32P0FYY_rjA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NNpiwogJEee32P0FYY_rjA" name="CashPayment">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_NNpiw4gJEee32P0FYY_rjA">
+      <body>&lt;Enter note text here&gt;</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NNpixIgJEee32P0FYY_rjA" name="Customer"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NNpixYgJEee32P0FYY_rjA" name="ProductCatalog"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NNpixogJEee32P0FYY_rjA" name="Usedby" memberEnd="_NNpix4gJEee32P0FYY_rjA _NNpiyogJEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNpix4gJEee32P0FYY_rjA" visibility="public" type="_NNysnIgJEee32P0FYY_rjA" association="_NNpixogJEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NNpiyIgJEee32P0FYY_rjA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NNpiyYgJEee32P0FYY_rjA"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNpiyogJEee32P0FYY_rjA" visibility="public" type="_NNpixYgJEee32P0FYY_rjA" association="_NNpixogJEee32P0FYY_rjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NNpiy4gJEee32P0FYY_rjA" name="contain" memberEnd="_NNpizIgJEee32P0FYY_rjA _NNpizogJEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNpizIgJEee32P0FYY_rjA" visibility="public" type="_NNyskIgJEee32P0FYY_rjA" association="_NNpiy4gJEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NNpizYgJEee32P0FYY_rjA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNpizogJEee32P0FYY_rjA" visibility="public" type="_NNpixYgJEee32P0FYY_rjA" association="_NNpiy4gJEee32P0FYY_rjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NNyskIgJEee32P0FYY_rjA" name="ProductDescription"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NNyskYgJEee32P0FYY_rjA" name="describe" memberEnd="_NNyskogJEee32P0FYY_rjA _NNyslYgJEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNyskogJEee32P0FYY_rjA" visibility="public" type="_NNyslogJEee32P0FYY_rjA" association="_NNyskYgJEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NNysk4gJEee32P0FYY_rjA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NNyslIgJEee32P0FYY_rjA"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNyslYgJEee32P0FYY_rjA" visibility="public" type="_NNyskIgJEee32P0FYY_rjA" association="_NNyskYgJEee32P0FYY_rjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NNyslogJEee32P0FYY_rjA" name="Item"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NNysl4gJEee32P0FYY_rjA" name="Stock" memberEnd="_NNysmIgJEee32P0FYY_rjA _NNysmYgJEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNysmIgJEee32P0FYY_rjA" visibility="public" type="_NNysnIgJEee32P0FYY_rjA" association="_NNysl4gJEee32P0FYY_rjA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNysmYgJEee32P0FYY_rjA" visibility="public" type="_NNyslogJEee32P0FYY_rjA" association="_NNysl4gJEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NNysmogJEee32P0FYY_rjA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NNysm4gJEee32P0FYY_rjA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NNysnIgJEee32P0FYY_rjA" name="Store"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NNysnYgJEee32P0FYY_rjA" name="Houses" memberEnd="_NNysnogJEee32P0FYY_rjA _NNysoIgJEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNysnogJEee32P0FYY_rjA" visibility="public" type="_NNysoYgJEee32P0FYY_rjA" association="_NNysnYgJEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NNysn4gJEee32P0FYY_rjA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNysoIgJEee32P0FYY_rjA" visibility="public" type="_NNysnIgJEee32P0FYY_rjA" association="_NNysnYgJEee32P0FYY_rjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NNysoYgJEee32P0FYY_rjA" name="Registor"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NNysoogJEee32P0FYY_rjA" name="workon" memberEnd="_NNyso4gJEee32P0FYY_rjA _NNyspIgJEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNyso4gJEee32P0FYY_rjA" visibility="public" type="_NNyspYgJEee32P0FYY_rjA" association="_NNysoogJEee32P0FYY_rjA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NNyspIgJEee32P0FYY_rjA" visibility="public" type="_NNysoYgJEee32P0FYY_rjA" association="_NNysoogJEee32P0FYY_rjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NNyspYgJEee32P0FYY_rjA" name="Cashier"/>
+</uml:Model>

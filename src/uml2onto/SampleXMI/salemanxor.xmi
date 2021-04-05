@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><uml:Model xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="_LxC0YBenEeaGxLlKE5s3zA" name="salemanxor">
+  <eAnnotations xmi:id="_LxDbcBenEeaGxLlKE5s3zA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_LxDbcRenEeaGxLlKE5s3zA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_LxDbchenEeaGxLlKE5s3zA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <ownedRule xmi:type="uml:Constraint" xmi:id="_LxDbcxenEeaGxLlKE5s3zA" name="xor" constrainedElement="_LxDbdxenEeaGxLlKE5s3zA _LxDbfBenEeaGxLlKE5s3zA">
+    <specification xmi:type="uml:LiteralString" xmi:id="_LxDbdBenEeaGxLlKE5s3zA" value=""/>
+  </ownedRule>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LxDbdRenEeaGxLlKE5s3zA" name="Saleman"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LxDbdhenEeaGxLlKE5s3zA" name="Travel" memberEnd="_LxDbdxenEeaGxLlKE5s3zA _LxDbeRenEeaGxLlKE5s3zA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LxDbdxenEeaGxLlKE5s3zA" visibility="public" type="_LxECgRenEeaGxLlKE5s3zA" association="_LxDbdhenEeaGxLlKE5s3zA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LxDbeBenEeaGxLlKE5s3zA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LxDbeRenEeaGxLlKE5s3zA" visibility="public" type="_LxDbdRenEeaGxLlKE5s3zA" association="_LxDbdhenEeaGxLlKE5s3zA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LxDbehenEeaGxLlKE5s3zA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LxDbexenEeaGxLlKE5s3zA" name="Travel" memberEnd="_LxDbfBenEeaGxLlKE5s3zA _LxDbfhenEeaGxLlKE5s3zA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LxDbfBenEeaGxLlKE5s3zA" visibility="public" type="_LxECghenEeaGxLlKE5s3zA" association="_LxDbexenEeaGxLlKE5s3zA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LxDbfRenEeaGxLlKE5s3zA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LxDbfhenEeaGxLlKE5s3zA" visibility="public" type="_LxDbdRenEeaGxLlKE5s3zA" association="_LxDbexenEeaGxLlKE5s3zA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LxECgBenEeaGxLlKE5s3zA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LxECgRenEeaGxLlKE5s3zA" name="Vehicle"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LxECghenEeaGxLlKE5s3zA" name="CommercialVehicle">
+    <generalization xmi:type="uml:Generalization" xmi:id="_LxECgxenEeaGxLlKE5s3zA" general="_LxECgRenEeaGxLlKE5s3zA"/>
+  </packagedElement>
+</uml:Model>

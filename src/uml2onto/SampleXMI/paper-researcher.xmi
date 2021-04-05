@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><uml:Model xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="_EXFUIIgVEee32P0FYY_rjA" name="paperresearcher">
+  <eAnnotations xmi:id="_EXFUIYgVEee32P0FYY_rjA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_EXFUIogVEee32P0FYY_rjA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_EXFUI4gVEee32P0FYY_rjA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_EXFUJIgVEee32P0FYY_rjA" name="Researcher"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EXFUJYgVEee32P0FYY_rjA" name="review" memberEnd="_EXFUJogVEee32P0FYY_rjA _EXFUJ4gVEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EXFUJogVEee32P0FYY_rjA" visibility="public" type="_EXFULogVEee32P0FYY_rjA" association="_EXFUJYgVEee32P0FYY_rjA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EXFUJ4gVEee32P0FYY_rjA" visibility="public" type="_EXFUJIgVEee32P0FYY_rjA" association="_EXFUJYgVEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EXFUKIgVEee32P0FYY_rjA" value="3"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EXFUKYgVEee32P0FYY_rjA" value="3"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EXFUKogVEee32P0FYY_rjA" name="write" memberEnd="_EXFUK4gVEee32P0FYY_rjA _EXFULIgVEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EXFUK4gVEee32P0FYY_rjA" visibility="public" type="_EXFULogVEee32P0FYY_rjA" association="_EXFUKogVEee32P0FYY_rjA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EXFULIgVEee32P0FYY_rjA" visibility="public" type="_EXFUJIgVEee32P0FYY_rjA" association="_EXFUKogVEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EXFULYgVEee32P0FYY_rjA" value="2"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_EXFULogVEee32P0FYY_rjA" name="Paper"/>
+</uml:Model>

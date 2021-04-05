@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><uml:Model xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="_QkMsQEEmEeaMvbbkGfveJw" name="xor">
+  <eAnnotations xmi:id="_QkOhcEEmEeaMvbbkGfveJw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_QkOhcUEmEeaMvbbkGfveJw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_QkOhckEmEeaMvbbkGfveJw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <ownedRule xmi:type="uml:Constraint" xmi:id="_QkOhc0EmEeaMvbbkGfveJw" name="xor" constrainedElement="_QkOhd0EmEeaMvbbkGfveJw _QkOhfEEmEeaMvbbkGfveJw">
+    <specification xmi:type="uml:LiteralString" xmi:id="_QkOhdEEmEeaMvbbkGfveJw" value=""/>
+  </ownedRule>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QkOhdUEmEeaMvbbkGfveJw" name="Student"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QkOhdkEmEeaMvbbkGfveJw" name="Attempt" memberEnd="_QkOhd0EmEeaMvbbkGfveJw _QkOheUEmEeaMvbbkGfveJw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QkOhd0EmEeaMvbbkGfveJw" visibility="public" type="_QkOhgEEmEeaMvbbkGfveJw" association="_QkOhdkEmEeaMvbbkGfveJw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QkOheEEmEeaMvbbkGfveJw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QkOheUEmEeaMvbbkGfveJw" visibility="public" type="_QkOhdUEmEeaMvbbkGfveJw" association="_QkOhdkEmEeaMvbbkGfveJw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QkOhekEmEeaMvbbkGfveJw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QkOhe0EmEeaMvbbkGfveJw" name="Miss" memberEnd="_QkOhfEEmEeaMvbbkGfveJw _QkOhfkEmEeaMvbbkGfveJw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QkOhfEEmEeaMvbbkGfveJw" visibility="public" type="_QkOhgEEmEeaMvbbkGfveJw" association="_QkOhe0EmEeaMvbbkGfveJw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QkOhfUEmEeaMvbbkGfveJw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QkOhfkEmEeaMvbbkGfveJw" visibility="public" type="_QkOhdUEmEeaMvbbkGfveJw" association="_QkOhe0EmEeaMvbbkGfveJw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QkOhf0EmEeaMvbbkGfveJw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QkOhgEEmEeaMvbbkGfveJw" name="Exam"/>
+</uml:Model>

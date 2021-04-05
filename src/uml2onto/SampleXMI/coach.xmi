@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><uml:Model xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="_UZF0oIgUEee32P0FYY_rjA" name="coach">
+  <eAnnotations xmi:id="_UZF0oYgUEee32P0FYY_rjA" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_UZF0oogUEee32P0FYY_rjA" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_UZF0o4gUEee32P0FYY_rjA" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UZF0pIgUEee32P0FYY_rjA" name="Trolly"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UZF0pYgUEee32P0FYY_rjA" name="operate" memberEnd="_UZF0pogUEee32P0FYY_rjA _UZF0p4gUEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UZF0pogUEee32P0FYY_rjA" visibility="public" type="_UZF0t4gUEee32P0FYY_rjA" association="_UZF0pYgUEee32P0FYY_rjA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UZF0p4gUEee32P0FYY_rjA" visibility="public" type="_UZF0pIgUEee32P0FYY_rjA" association="_UZF0pYgUEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UZF0qIgUEee32P0FYY_rjA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UZF0qYgUEee32P0FYY_rjA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UZF0qogUEee32P0FYY_rjA" name="Trip"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UZF0q4gUEee32P0FYY_rjA" name="uses" memberEnd="_UZF0rIgUEee32P0FYY_rjA _UZF0rogUEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UZF0rIgUEee32P0FYY_rjA" visibility="public" type="_UZF0t4gUEee32P0FYY_rjA" association="_UZF0q4gUEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UZF0rYgUEee32P0FYY_rjA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UZF0rogUEee32P0FYY_rjA" visibility="public" type="_UZF0qogUEee32P0FYY_rjA" association="_UZF0q4gUEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UZF0r4gUEee32P0FYY_rjA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UZF0sIgUEee32P0FYY_rjA" name="travels" memberEnd="_UZF0sYgUEee32P0FYY_rjA _UZF0s4gUEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UZF0sYgUEee32P0FYY_rjA" visibility="public" type="_UZF0vogUEee32P0FYY_rjA" association="_UZF0sIgUEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UZF0sogUEee32P0FYY_rjA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UZF0s4gUEee32P0FYY_rjA" visibility="public" type="_UZF0qogUEee32P0FYY_rjA" association="_UZF0sIgUEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UZF0tIgUEee32P0FYY_rjA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UZF0tYgUEee32P0FYY_rjA" name="RegularTrip">
+    <generalization xmi:type="uml:Generalization" xmi:id="_UZF0togUEee32P0FYY_rjA" general="_UZF0qogUEee32P0FYY_rjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UZF0t4gUEee32P0FYY_rjA" name="Coach"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UZF0uIgUEee32P0FYY_rjA" name="coachbook" memberEnd="_UZF0uYgUEee32P0FYY_rjA _UZF0vIgUEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UZF0uYgUEee32P0FYY_rjA" visibility="public" type="_UZF0xIgUEee32P0FYY_rjA" association="_UZF0uIgUEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UZF0uogUEee32P0FYY_rjA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UZF0u4gUEee32P0FYY_rjA"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UZF0vIgUEee32P0FYY_rjA" visibility="public" type="_UZF0t4gUEee32P0FYY_rjA" association="_UZF0uIgUEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UZF0vYgUEee32P0FYY_rjA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UZF0vogUEee32P0FYY_rjA" name="Passenger"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UZF0v4gUEee32P0FYY_rjA" name="passtic" memberEnd="_UZF0wIgUEee32P0FYY_rjA _UZF0w4gUEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UZF0wIgUEee32P0FYY_rjA" visibility="public" type="_UZF01YgUEee32P0FYY_rjA" association="_UZF0v4gUEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UZF0wYgUEee32P0FYY_rjA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UZF0wogUEee32P0FYY_rjA"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UZF0w4gUEee32P0FYY_rjA" visibility="public" type="_UZF0vogUEee32P0FYY_rjA" association="_UZF0v4gUEee32P0FYY_rjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UZF0xIgUEee32P0FYY_rjA" name="Bookingoffice"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UZF0xYgUEee32P0FYY_rjA" name="Bhas" memberEnd="_UZF0xogUEee32P0FYY_rjA _UZF0yYgUEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UZF0xogUEee32P0FYY_rjA" visibility="public" type="_UZF0z4gUEee32P0FYY_rjA" association="_UZF0xYgUEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UZF0x4gUEee32P0FYY_rjA" value="2"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UZF0yIgUEee32P0FYY_rjA"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UZF0yYgUEee32P0FYY_rjA" visibility="public" type="_UZF0xIgUEee32P0FYY_rjA" association="_UZF0xYgUEee32P0FYY_rjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UZF0yogUEee32P0FYY_rjA" name="bookman" memberEnd="_UZF0y4gUEee32P0FYY_rjA _UZF0zogUEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UZF0y4gUEee32P0FYY_rjA" visibility="public" type="_UZF03IgUEee32P0FYY_rjA" association="_UZF0yogUEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UZF0zIgUEee32P0FYY_rjA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UZF0zYgUEee32P0FYY_rjA"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UZF0zogUEee32P0FYY_rjA" visibility="public" type="_UZF0xIgUEee32P0FYY_rjA" association="_UZF0yogUEee32P0FYY_rjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UZF0z4gUEee32P0FYY_rjA" name="VendingMachine"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UZF00IgUEee32P0FYY_rjA" name="has" memberEnd="_UZF00YgUEee32P0FYY_rjA _UZF01IgUEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UZF00YgUEee32P0FYY_rjA" visibility="public" type="_UZF01YgUEee32P0FYY_rjA" association="_UZF00IgUEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UZF00ogUEee32P0FYY_rjA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UZF004gUEee32P0FYY_rjA"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UZF01IgUEee32P0FYY_rjA" visibility="public" type="_UZF0z4gUEee32P0FYY_rjA" association="_UZF00IgUEee32P0FYY_rjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UZF01YgUEee32P0FYY_rjA" name="Ticket"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UZF01ogUEee32P0FYY_rjA" name="SalaryCategory"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UZF014gUEee32P0FYY_rjA" name="Mansal" memberEnd="_UZF02IgUEee32P0FYY_rjA _UZF02ogUEee32P0FYY_rjA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UZF02IgUEee32P0FYY_rjA" visibility="public" type="_UZF03IgUEee32P0FYY_rjA" association="_UZF014gUEee32P0FYY_rjA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UZF02YgUEee32P0FYY_rjA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UZF02ogUEee32P0FYY_rjA" visibility="public" type="_UZF01ogUEee32P0FYY_rjA" association="_UZF014gUEee32P0FYY_rjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UZF024gUEee32P0FYY_rjA" name="Employee"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UZF03IgUEee32P0FYY_rjA" name="Manager">
+    <generalization xmi:type="uml:Generalization" xmi:id="_UZF03YgUEee32P0FYY_rjA" general="_UZF024gUEee32P0FYY_rjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UZF03ogUEee32P0FYY_rjA" name="AdultTicket">
+    <generalization xmi:type="uml:Generalization" xmi:id="_UZF034gUEee32P0FYY_rjA" general="_UZF01YgUEee32P0FYY_rjA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UZF04IgUEee32P0FYY_rjA" name="ChildTicket">
+    <generalization xmi:type="uml:Generalization" xmi:id="_UZF04YgUEee32P0FYY_rjA" general="_UZF01YgUEee32P0FYY_rjA"/>
+  </packagedElement>
+</uml:Model>

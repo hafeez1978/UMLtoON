@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><uml:Model xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="_0bvU0IwREeeHI8ZOY9KM8g" name="threeclasses">
+  <eAnnotations xmi:id="_0bvU0YwREeeHI8ZOY9KM8g" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_0bvU0owREeeHI8ZOY9KM8g" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_0bvU04wREeeHI8ZOY9KM8g" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0bvU1IwREeeHI8ZOY9KM8g" name="A"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0bvU1YwREeeHI8ZOY9KM8g" name="Ass1" memberEnd="_0bvU1owREeeHI8ZOY9KM8g _0bvU2YwREeeHI8ZOY9KM8g">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0bvU1owREeeHI8ZOY9KM8g" visibility="public" type="_0bvU2owREeeHI8ZOY9KM8g" association="_0bvU1YwREeeHI8ZOY9KM8g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0bvU14wREeeHI8ZOY9KM8g" value="2"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0bvU2IwREeeHI8ZOY9KM8g" value="2"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0bvU2YwREeeHI8ZOY9KM8g" visibility="public" type="_0bvU1IwREeeHI8ZOY9KM8g" association="_0bvU1YwREeeHI8ZOY9KM8g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0bvU2owREeeHI8ZOY9KM8g" name="B"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0bvU24wREeeHI8ZOY9KM8g" name="Ass2" memberEnd="_0bvU3IwREeeHI8ZOY9KM8g _0bvU34wREeeHI8ZOY9KM8g">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0bvU3IwREeeHI8ZOY9KM8g" visibility="public" type="_0bvU4IwREeeHI8ZOY9KM8g" association="_0bvU24wREeeHI8ZOY9KM8g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0bvU3YwREeeHI8ZOY9KM8g" value="3"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0bvU3owREeeHI8ZOY9KM8g" value="3"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0bvU34wREeeHI8ZOY9KM8g" visibility="public" type="_0bvU2owREeeHI8ZOY9KM8g" association="_0bvU24wREeeHI8ZOY9KM8g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_0bvU4IwREeeHI8ZOY9KM8g" name="C"/>
+</uml:Model>

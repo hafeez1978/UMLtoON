@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><uml:Model xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="_ngs1MIdEEee1XZQ5Qn2kug" name="dependencysample">
+  <eAnnotations xmi:id="_ngs1MYdEEee1XZQ5Qn2kug" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_ngs1ModEEee1XZQ5Qn2kug" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_ngs1M4dEEee1XZQ5Qn2kug" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ngs1NIdEEee1XZQ5Qn2kug" name="Class1" clientDependency="_ngs1NYdEEee1XZQ5Qn2kug"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_ngs1NYdEEee1XZQ5Qn2kug" name="Create" supplier="_ngs1NodEEee1XZQ5Qn2kug" client="_ngs1NIdEEee1XZQ5Qn2kug"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ngs1NodEEee1XZQ5Qn2kug" name="Class2"/>
+</uml:Model>

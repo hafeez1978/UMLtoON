@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><uml:Model xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="_Z9y0gNETEeapiOMvHg1xyQ" name="restaurant">
+  <eAnnotations xmi:id="_Z9y0gdETEeapiOMvHg1xyQ" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_Z9y0gtETEeapiOMvHg1xyQ" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_Z9y0g9ETEeapiOMvHg1xyQ" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <ownedRule xmi:type="uml:Constraint" xmi:id="_Z9y0hNETEeapiOMvHg1xyQ" name="xor" constrainedElement="_Z9y0mNETEeapiOMvHg1xyQ _Z9y0ndETEeapiOMvHg1xyQ">
+    <specification xmi:type="uml:LiteralString" xmi:id="_Z9y0hdETEeapiOMvHg1xyQ" value=""/>
+  </ownedRule>
+  <ownedRule xmi:type="uml:Constraint" xmi:id="_Z9y0htETEeapiOMvHg1xyQ" name="xor" constrainedElement="_Z9y0p9ETEeapiOMvHg1xyQ _Z9y0otETEeapiOMvHg1xyQ">
+    <specification xmi:type="uml:LiteralString" xmi:id="_Z9y0h9ETEeapiOMvHg1xyQ" value=""/>
+  </ownedRule>
+  <ownedRule xmi:type="uml:Constraint" xmi:id="_Z9y0iNETEeapiOMvHg1xyQ" name="xor" constrainedElement="_Z9y0r9ETEeapiOMvHg1xyQ _Z9y0tNETEeapiOMvHg1xyQ">
+    <specification xmi:type="uml:LiteralString" xmi:id="_Z9y0idETEeapiOMvHg1xyQ" value=""/>
+  </ownedRule>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Z9y0itETEeapiOMvHg1xyQ" name="Customer"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Z9y0i9ETEeapiOMvHg1xyQ" name="Place" memberEnd="_Z9y0jNETEeapiOMvHg1xyQ _Z9y0j9ETEeapiOMvHg1xyQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z9y0jNETEeapiOMvHg1xyQ" visibility="public" type="_Z9y0kdETEeapiOMvHg1xyQ" association="_Z9y0i9ETEeapiOMvHg1xyQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z9y0jdETEeapiOMvHg1xyQ" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z9y0jtETEeapiOMvHg1xyQ"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z9y0j9ETEeapiOMvHg1xyQ" visibility="public" type="_Z9y0itETEeapiOMvHg1xyQ" association="_Z9y0i9ETEeapiOMvHg1xyQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z9y0kNETEeapiOMvHg1xyQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Z9y0kdETEeapiOMvHg1xyQ" name="Order"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Z9y0ktETEeapiOMvHg1xyQ" name="have" memberEnd="_Z9y0k9ETEeapiOMvHg1xyQ _Z9y0ldETEeapiOMvHg1xyQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z9y0k9ETEeapiOMvHg1xyQ" visibility="public" type="_Z9y0rdETEeapiOMvHg1xyQ" association="_Z9y0ktETEeapiOMvHg1xyQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z9y0lNETEeapiOMvHg1xyQ"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z9y0ldETEeapiOMvHg1xyQ" visibility="public" type="_Z9y0kdETEeapiOMvHg1xyQ" association="_Z9y0ktETEeapiOMvHg1xyQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z9y0ltETEeapiOMvHg1xyQ"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Z9y0l9ETEeapiOMvHg1xyQ" name="Complimentary" memberEnd="_Z9y0mNETEeapiOMvHg1xyQ _Z9y0mtETEeapiOMvHg1xyQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z9y0mNETEeapiOMvHg1xyQ" visibility="public" type="_Z9y0q9ETEeapiOMvHg1xyQ" association="_Z9y0l9ETEeapiOMvHg1xyQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z9y0mdETEeapiOMvHg1xyQ"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z9y0mtETEeapiOMvHg1xyQ" visibility="public" type="_Z9y0kdETEeapiOMvHg1xyQ" association="_Z9y0l9ETEeapiOMvHg1xyQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z9y0m9ETEeapiOMvHg1xyQ"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Z9y0nNETEeapiOMvHg1xyQ" name="Complimentary" memberEnd="_Z9y0ndETEeapiOMvHg1xyQ _Z9y0n9ETEeapiOMvHg1xyQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z9y0ndETEeapiOMvHg1xyQ" visibility="public" type="_Z9y0rNETEeapiOMvHg1xyQ" association="_Z9y0nNETEeapiOMvHg1xyQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z9y0ntETEeapiOMvHg1xyQ"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z9y0n9ETEeapiOMvHg1xyQ" visibility="public" type="_Z9y0kdETEeapiOMvHg1xyQ" association="_Z9y0nNETEeapiOMvHg1xyQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z9y0oNETEeapiOMvHg1xyQ"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Z9y0odETEeapiOMvHg1xyQ" name="servedon" memberEnd="_Z9y0otETEeapiOMvHg1xyQ _Z9y0pNETEeapiOMvHg1xyQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z9y0otETEeapiOMvHg1xyQ" visibility="public" type="_Z9y0utETEeapiOMvHg1xyQ" association="_Z9y0odETEeapiOMvHg1xyQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z9y0o9ETEeapiOMvHg1xyQ"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z9y0pNETEeapiOMvHg1xyQ" visibility="public" type="_Z9y0kdETEeapiOMvHg1xyQ" association="_Z9y0odETEeapiOMvHg1xyQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z9y0pdETEeapiOMvHg1xyQ"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Z9y0ptETEeapiOMvHg1xyQ" name="deliver" memberEnd="_Z9y0p9ETEeapiOMvHg1xyQ _Z9y0qdETEeapiOMvHg1xyQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z9y0p9ETEeapiOMvHg1xyQ" visibility="public" type="_Z9y0u9ETEeapiOMvHg1xyQ" association="_Z9y0ptETEeapiOMvHg1xyQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z9y0qNETEeapiOMvHg1xyQ"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z9y0qdETEeapiOMvHg1xyQ" visibility="public" type="_Z9y0kdETEeapiOMvHg1xyQ" association="_Z9y0ptETEeapiOMvHg1xyQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z9y0qtETEeapiOMvHg1xyQ"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Z9y0q9ETEeapiOMvHg1xyQ" name="Salad"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Z9y0rNETEeapiOMvHg1xyQ" name="Rita"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Z9y0rdETEeapiOMvHg1xyQ" name="Items"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Z9y0rtETEeapiOMvHg1xyQ" name="Keep" memberEnd="_Z9y0r9ETEeapiOMvHg1xyQ _Z9y0sNETEeapiOMvHg1xyQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z9y0r9ETEeapiOMvHg1xyQ" visibility="public" type="_Z9y0udETEeapiOMvHg1xyQ" association="_Z9y0rtETEeapiOMvHg1xyQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z9y0sNETEeapiOMvHg1xyQ" visibility="public" type="_Z9y0rdETEeapiOMvHg1xyQ" association="_Z9y0rtETEeapiOMvHg1xyQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z9y0sdETEeapiOMvHg1xyQ" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z9y0stETEeapiOMvHg1xyQ"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Z9y0s9ETEeapiOMvHg1xyQ" name="Keep" memberEnd="_Z9y0tNETEeapiOMvHg1xyQ _Z9y0tdETEeapiOMvHg1xyQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z9y0tNETEeapiOMvHg1xyQ" visibility="public" type="_Z9y0uNETEeapiOMvHg1xyQ" association="_Z9y0s9ETEeapiOMvHg1xyQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z9y0tdETEeapiOMvHg1xyQ" visibility="public" type="_Z9y0rdETEeapiOMvHg1xyQ" association="_Z9y0s9ETEeapiOMvHg1xyQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Z9y0ttETEeapiOMvHg1xyQ" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Z9y0t9ETEeapiOMvHg1xyQ"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Z9y0uNETEeapiOMvHg1xyQ" name="Store"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Z9y0udETEeapiOMvHg1xyQ" name="Kitchen"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Z9y0utETEeapiOMvHg1xyQ" name="Table"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Z9y0u9ETEeapiOMvHg1xyQ" name="Address"/>
+</uml:Model>

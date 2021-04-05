@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><uml:Model xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmi:version="2.1" xmi:id="_DYKbgDcwEea_TefrYS8FfQ" name="salemanxor">
+  <eAnnotations xmi:id="_DYKbgTcwEea_TefrYS8FfQ" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_DYKbgjcwEea_TefrYS8FfQ" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_DYKbgzcwEea_TefrYS8FfQ" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <ownedRule xmi:type="uml:Constraint" xmi:id="_w46-NMmZEeahQv4ZszhVZg" name="xor" constrainedElement="_w46-P8mZEeahQv4ZszhVZg _w46-RsmZEeahQv4ZszhVZg">
+    <specification xmi:type="uml:LiteralString" xmi:id="_w46-NcmZEeahQv4ZszhVZg" value=""/>
+  </ownedRule>
+  <ownedRule xmi:type="uml:Constraint" xmi:id="_w46-NsmZEeahQv4ZszhVZg" name="xor" constrainedElement="_w46-T8mZEeahQv4ZszhVZg _w46-VsmZEeahQv4ZszhVZg">
+    <specification xmi:type="uml:LiteralString" xmi:id="_w46-N8mZEeahQv4ZszhVZg" value=""/>
+  </ownedRule>
+  <packagedElement xmi:type="uml:Class" xmi:id="_w46-OMmZEeahQv4ZszhVZg" name="Customer"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w46-OcmZEeahQv4ZszhVZg" name="Place" memberEnd="_w46-OsmZEeahQv4ZszhVZg _w46-PMmZEeahQv4ZszhVZg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w46-OsmZEeahQv4ZszhVZg" visibility="public" type="_w46-TMmZEeahQv4ZszhVZg" association="_w46-OcmZEeahQv4ZszhVZg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w46-O8mZEeahQv4ZszhVZg"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w46-PMmZEeahQv4ZszhVZg" visibility="public" type="_w46-OMmZEeahQv4ZszhVZg" association="_w46-OcmZEeahQv4ZszhVZg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w46-PcmZEeahQv4ZszhVZg"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w46-PsmZEeahQv4ZszhVZg" name="payment" memberEnd="_w46-P8mZEeahQv4ZszhVZg _w46-QsmZEeahQv4ZszhVZg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w46-P8mZEeahQv4ZszhVZg" visibility="public" type="_w46-XcmZEeahQv4ZszhVZg" association="_w46-PsmZEeahQv4ZszhVZg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w46-QMmZEeahQv4ZszhVZg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w46-QcmZEeahQv4ZszhVZg"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w46-QsmZEeahQv4ZszhVZg" visibility="public" type="_w46-OMmZEeahQv4ZszhVZg" association="_w46-PsmZEeahQv4ZszhVZg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w46-Q8mZEeahQv4ZszhVZg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w46-RMmZEeahQv4ZszhVZg"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w46-RcmZEeahQv4ZszhVZg" name="payment" memberEnd="_w46-RsmZEeahQv4ZszhVZg _w46-ScmZEeahQv4ZszhVZg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w46-RsmZEeahQv4ZszhVZg" visibility="public" type="_w46-XMmZEeahQv4ZszhVZg" association="_w46-RcmZEeahQv4ZszhVZg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w46-R8mZEeahQv4ZszhVZg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w46-SMmZEeahQv4ZszhVZg"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w46-ScmZEeahQv4ZszhVZg" visibility="public" type="_w46-OMmZEeahQv4ZszhVZg" association="_w46-RcmZEeahQv4ZszhVZg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w46-SsmZEeahQv4ZszhVZg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w46-S8mZEeahQv4ZszhVZg"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_w46-TMmZEeahQv4ZszhVZg" name="Reservation"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_w46-TcmZEeahQv4ZszhVZg" name="Ticket"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w46-TsmZEeahQv4ZszhVZg" name="have" memberEnd="_w46-T8mZEeahQv4ZszhVZg _w46-UsmZEeahQv4ZszhVZg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w46-T8mZEeahQv4ZszhVZg" visibility="public" type="_w46-XsmZEeahQv4ZszhVZg" association="_w46-TsmZEeahQv4ZszhVZg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w46-UMmZEeahQv4ZszhVZg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w46-UcmZEeahQv4ZszhVZg"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w46-UsmZEeahQv4ZszhVZg" visibility="public" type="_w46-TcmZEeahQv4ZszhVZg" association="_w46-TsmZEeahQv4ZszhVZg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w46-U8mZEeahQv4ZszhVZg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w46-VMmZEeahQv4ZszhVZg"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w46-VcmZEeahQv4ZszhVZg" name="have" memberEnd="_w46-VsmZEeahQv4ZszhVZg _w46-WcmZEeahQv4ZszhVZg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w46-VsmZEeahQv4ZszhVZg" visibility="public" type="_w46-YMmZEeahQv4ZszhVZg" association="_w46-VcmZEeahQv4ZszhVZg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w46-V8mZEeahQv4ZszhVZg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w46-WMmZEeahQv4ZszhVZg"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w46-WcmZEeahQv4ZszhVZg" visibility="public" type="_w46-TcmZEeahQv4ZszhVZg" association="_w46-VcmZEeahQv4ZszhVZg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w46-WsmZEeahQv4ZszhVZg" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w46-W8mZEeahQv4ZszhVZg"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_w46-XMmZEeahQv4ZszhVZg" name="Cash"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_w46-XcmZEeahQv4ZszhVZg" name="CreditCard"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_w46-XsmZEeahQv4ZszhVZg" name="Box">
+    <generalization xmi:type="uml:Generalization" xmi:id="_w46-X8mZEeahQv4ZszhVZg" general="_w46-TMmZEeahQv4ZszhVZg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_w46-YMmZEeahQv4ZszhVZg" name="Individual">
+    <generalization xmi:type="uml:Generalization" xmi:id="_w46-YcmZEeahQv4ZszhVZg" general="_w46-TMmZEeahQv4ZszhVZg"/>
+  </packagedElement>
+</uml:Model>
